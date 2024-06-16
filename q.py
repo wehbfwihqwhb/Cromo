@@ -1,5 +1,4 @@
 import streamlit as st
-import pyttsx3
 import random
 engine = pyttsx.init()
 engine.setProperty("rate", 174)
