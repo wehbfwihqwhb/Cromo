@@ -1,7 +1,7 @@
 import streamlit as st
-import Pyttsx3
+import pyttsx3
 import random
-engine = Pyttsx3.init()
+engine = pyttsx.init()
 engine.setProperty("rate", 174)
 col,col1 = st.columns(2)
 col.header("Cromolearners")
